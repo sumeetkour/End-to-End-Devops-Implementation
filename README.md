@@ -2,10 +2,10 @@
 This project demonstrates how DevOps practices can be applied to a simple web application written in Golang using the net/http package.
 The goal is to showcase a modern DevOps workflow including containerization, CI, and GitOps-based deployment.
 Practices implemented:
-Multi-stage Docker build
-Containerization
-Continuous Integration (CI)
-Continuous Deployment (CD)
+- Multi-stage Docker build
+- Containerization
+- Continuous Integration (CI)
+- Continuous Deployment (CD)
 
 Docker & Containerization
 The application is containerized using Docker with a multi-stage build to reduce image size and improve security.

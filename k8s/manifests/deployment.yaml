@@ -1,0 +1,22 @@
+# This is a sample deployment manifest file for a simple web application.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-implementation
+  labels:
+    app: devops-implementation
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devops-implementation
+  template:
+    metadata:
+      labels:
+        app: devops-implementation
+    spec:
+      containers:
+      - name: devops-implementation
+        image: <docker-user-name>/devops-implementation
+        ports:
+        - containerPort: 8080

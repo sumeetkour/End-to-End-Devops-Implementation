@@ -11,13 +11,19 @@ Docker & Containerization
 The application is containerized using Docker with a multi-stage build to reduce image size and improve security.
 
 Build the image:
+```bash
 docker build -t <your-docker-username>/devops-implementation
+```
 
 Run the container:
+```bash
 docker run -p 8080:8080 <your-docker-username>/devops-implementation
+```
 
 Push to Docker Hub:
+```bash
 docker push <your-docker-username>/devops-implementation
+```
 
 
 Continuous Integration
